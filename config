@@ -17,9 +17,9 @@
 #new_window pixel
 
 #get the mouse out of the way with unclutter
-exec unclutter 
+exec unclutter
 
-exec --no-startup-id feh --bg-scale ~/Pictures/Firefox_wallpaper.png
+#exec --no-startup-id feh --bg-scale ~/Pictures/Firefox_wallpaper.png
 
 ###########################################################################
 ###################  I 3  G A P S  N E X T   ##############################

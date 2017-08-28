@@ -12,9 +12,7 @@ echo "#########################################################"
 
 
 sudo apt install -y firefox
-sudo apt install -y vlc 
-sudo apt install -y evolution
-
+sudo apt install -y vlc
 
 
 echo "#########################################################"
@@ -30,15 +28,6 @@ sudo apt-get install -y dmenu
 # conky
 sudo apt-get install -y conky-all
 
-# geany
-sudo apt-get install -y geany
-
-# numerick lock on
-sudo apt-get install -y numlockx
-numlockx on
-
-# change wallpapers with feh and variety
-sudo apt-get install -y feh
 
 # change icons,themes and mouse
 sudo apt-get install -y lxappearance qt4-qtconfig
@@ -46,15 +35,8 @@ sudo apt-get install -y lxappearance qt4-qtconfig
 # take picture of screen
 sudo apt-get install -y scrot
 
-# transparency of non active window
-sudo apt-get install -y compton
-
 # notify demon
 sudo apt-get install -y notify-osd
-
-
-# get the mouse out of the way
-sudo apt-get install -y unclutter
 
 # to know what system you are on normally installed
 sudo apt-get install -y lsb-release
@@ -69,8 +51,6 @@ sudo apt-get install -y gnome-terminal nemo
 # Cursor theme
 sudo apt-get install -y breeze-cursor-theme
 
-# appfinder
-sudo apt-get install -y xfce4-appfinder
 
 # gmrun
 sudo apt-get install -y gmrun
@@ -78,15 +58,8 @@ sudo apt-get install -y gmrun
 # rofi
 sudo apt-get install -y rofi
 
-# screenshooters
-sudo apt-get install -y xfce4-screenshooter
-sudo apt-get install -y gnome-screenshot
-
 # nitrogen
 sudo apt-get install -y nitrogen
-
-# chromium
-sudo apt-get install -y chromium-browser
 
 # playerctl for music
 #https://github.com/acrisci/playerctl/releases
