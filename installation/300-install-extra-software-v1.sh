@@ -32,9 +32,6 @@ sudo apt-get install -y conky-all
 # change icons,themes and mouse
 sudo apt-get install -y lxappearance qt4-qtconfig
 
-# take picture of screen
-sudo apt-get install -y scrot
-
 # notify demon
 sudo apt-get install -y notify-osd
 
@@ -45,21 +42,11 @@ sudo apt-get install -y lsb-release
 # sudo apt-get install -y volti
 sudo apt-get install  -y pasystray paman paprefs pavumeter pulseaudio-module-zeroconf
 
-# different terminal for nemo
-sudo apt-get install -y gnome-terminal nemo
-
 # Cursor theme
 sudo apt-get install -y breeze-cursor-theme
 
-
-# gmrun
-sudo apt-get install -y gmrun
-
 # rofi
 sudo apt-get install -y rofi
-
-# nitrogen
-sudo apt-get install -y nitrogen
 
 # playerctl for music
 #https://github.com/acrisci/playerctl/releases

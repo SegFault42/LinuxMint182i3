@@ -62,7 +62,7 @@ fi
 
 git init
 git config --global user.name "SegFault42"
-git config --global user.email "rabougue@student.42.fr"
+git config --global user.email "SegFault42@protonmail.com"
 sudo git config --system core.editor vim
 git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=18000'
