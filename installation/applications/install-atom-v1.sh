@@ -11,28 +11,24 @@
 #
 ##################################################################################################################
 
-echo "Let us install i3"
-
-sh 100-install-dependencies-v1.sh
-sh 110-install-xcb-util-xrm-v1.sh
-sh 120-install-i3-gaps-next-v1.sh
-
-sh 300-install-extra-software-v1.sh
-
-sh 400-install-fonts-v1.sh
-
-sh 410-install-icons-v1.sh
-
-sh 420-install-themes-v1.sh
-
-sh 430-install-applications-v1.sh
-
-sh 600-copy-personal-settings.sh
+# will not install to error....????
 
 
-sh 900-copy-i3-files-to-config-i3-folder-v2.sh
+rm /tmp/atom-amd64.deb
 
-echo "###################################################"
-echo "##############     Auto script terminated     #################"
-echo "###################################################"
+wget https://atom.io/download/deb -O /tmp/atom-amd64.deb
+#curl -o /tmp/code_1.5.3-1474533365_amd64.deb https://code.visualstudio.com/docs/?dv=linux64_deb
+sudo dpkg -i /tmp/atom-amd64.deb
+#gdebi /tmp/code_1.5.3-1474533365_amd64.deb
+
+
+rm /tmp/atom-amd64.deb
+
+
+##################################################################################################################
+
+echo "################################################################"
+echo "###################    T H E   E N D      ######################"
+echo "################################################################"
+
 

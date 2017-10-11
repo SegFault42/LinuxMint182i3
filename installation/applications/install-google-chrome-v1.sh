@@ -11,28 +11,17 @@
 #
 ##################################################################################################################
 
-echo "Let us install i3"
 
-sh 100-install-dependencies-v1.sh
-sh 110-install-xcb-util-xrm-v1.sh
-sh 120-install-i3-gaps-next-v1.sh
+# donwloading and installing google chrome for netflix e.g.
 
-sh 300-install-extra-software-v1.sh
+rm /tmp/google-chrome-stable_current_amd64.deb
 
-sh 400-install-fonts-v1.sh
+echo "downloading google chrome latest stable edition"
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O /tmp/google-chrome-stable_current_amd64.deb
+sudo dpkg -i /tmp/google-chrome-stable_current_amd64.deb
 
-sh 410-install-icons-v1.sh
+rm /tmp/google-chrome-stable_current_amd64.deb
 
-sh 420-install-themes-v1.sh
-
-sh 430-install-applications-v1.sh
-
-sh 600-copy-personal-settings.sh
-
-
-sh 900-copy-i3-files-to-config-i3-folder-v2.sh
-
-echo "###################################################"
-echo "##############     Auto script terminated     #################"
-echo "###################################################"
-
+echo "################################################################"
+echo "###################    google chrome installed #################"
+echo "################################################################"
